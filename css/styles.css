@@ -19,18 +19,7 @@ body {
 .box-item{
   margin-bottom: 20px;
 }
-.footer-section{
-  background-color: #343a40;
-  color:#fff;
-}
 
-.circle {
-  width: 20px;
-  height: 20px;
-  border: 1px solid #000;
-  position: absolute;
-  border-radius: 15px;
-}
 
 /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
 @media screen and (max-width: 500px) {
@@ -42,4 +31,28 @@ body {
 /* Navbar links on mouse-over */
 .navbar a:hover {
   background-color:#baf5d9;
+}
+
+.facebook {
+  width: 60px;
+  height: 60px;
+  margin-left: 25px;
+}
+
+.instagram{
+  width: 60px;
+  height: 60px;
+}
+
+.linkedin{
+  width: 60px;
+  height: 60px;
+}
+
+.footerP{
+  margin-left: 10px;
+}
+
+.footer2{
+  margin-left: 10px;
 }

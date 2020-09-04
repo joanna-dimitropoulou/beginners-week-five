@@ -6,20 +6,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Starter Template for Bootstrap</title>
+    <title>MentalCentral</title>
 
     <!-- ADD BOOTSTRAP CORE HERE!!!! -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" crossorigin="anonymous">
     <!-- Custom styles for this template -->
     <link href="css/styles.css" rel="stylesheet">
+
+    
    
     
   </head>
 
   <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">MentalCentral</a>
+    <nav class="navbar navbar-expand-md navbar-dark  fixed-top" style="background-color: #7bcce9;">
+      <a class="navbar-brand" style="color:#4000ff; " href="#"><b>MentalCentral</b></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -27,20 +29,20 @@
       <div class="collapse navbar-collapse" id="navbarsExampleDefault">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" style="color:#4000ff;" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" style=color:#4000ff; href="#">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Disorders</a>
+            <a class="nav-link" style="color:#4000ff;" href="#disorder-section">Disorders</a>
           
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">News</a>
+            <a class="nav-link" style="color:#4000ff;" href="#News">News</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">HelpLines</a>
+            <a class="nav-link" style="color:#4000ff;" href="index_helpline.html">HelpLines</a>
           </li>
           
           
@@ -56,12 +58,12 @@
       <div class="card mb-3" style="max-width: 1200px; height: 400px;" >
         <div class="row no-gutters align-items-center">
           <div class="col-md-4">
-            <img src="images/logo.png" class="card-img" alt="logo photo" style="width:380px; height:400px;" >
+            <img src="images/logo (2).png" class="card-img" alt="logo photo" style="width:380px; max-width:100%; height:400px;" >
           </div>
           <div class="col-md-8">
             <div class="card-body">
               <h1 class="card-title">Welcome to MentalCentral!</h1>
-              <p class="card-text">This site aims to provide people with useful information about mental health disorders.<br> It gathers statistics from around the world, as well as timely facts.</p>
+              <p class="card-text">This site aims to provide people with useful information about mental health disorders.<br> It gathers statistics from around the world and presents news related to mental health.</p>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
             </div>
           </div>
@@ -69,9 +71,9 @@
       </div>
 
 
-      <div class="starter-template">
+      <div class="starter-template" id="disorder-section">
         <h1>Common mental health disorders</h1>
-        <p class="lead">Below is a list of the most common mental health disorders people suffer from.<br> Each card describes the various causes and symptoms of the listed disorder.</p>
+        <p class="lead">Below is a list of the most common mental health disorders people suffer from.<br> Each card describes the various symptoms of the listed disorder.</p>
       </div>
 
 
@@ -81,14 +83,12 @@
         <div class="col-sm box-item">
           <!-- add an image here -->
           <div class="card">
-            <img class="card-img-top" src="images/clone-in-desktop-example.png" alt="Card image cap">
+            <img class="card-img-top" src="images/anxiety.png" alt="anxiety icon" style="max-width:100%;height:auto;">
             <div class="card-body">
               <h5 class="card-title">Anxiety</h5>
               <p class="card-text">Common anxiety symptoms are: <br> <br> 1)Excessive worrying, panic <br> 2)Restlessness, fatigue <br> 3)Difficulty concentrating, irritability <br> 3)Tense muscles <br> 4)Trouble falling or staying asleep <br> 5)Panic attacks <br> 6)Avoiding social situations <br> 7)Nausea, dizziness, shortness of breath</p>
-              <a href="#" class="btn btn-primary giannis-btn">Go somewhere</a>
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-                Launch demo modal
-              </button>
+              <a href="index_helpline.html" class="btn btn-primary" style="background-color:#7bcce9; border-color:#7bcce9;"> HelpLine</a>
+            
             </div>
           </div>
         </div>
@@ -96,11 +96,11 @@
         <div class="col-sm box-item">
           <!-- add an image here -->
           <div class="card">
-            <img class="card-img-top" src="images/clone-in-desktop-example.png" alt="Card image cap">
+            <img class="card-img-top" src="images/depression.png" alt="depression icon" style="max-width:100%;height:auto;">
             <div class="card-body">
               <h5 class="card-title">Depression</h5>
-              <p class="card-text">Common depression symptoms are: <br> <br> 1)Continuous sadness/hoplessness <br> 2)Irritability and intolerance <br> 3)No motivation, interest or energy <br> 4)Not getting any enjoyment out of life</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <p class="card-text">Common depression symptoms are: <br> <br> 1)Continuous sadness/hoplessness <br> 2)Irritability and intolerance <br> 3)No motivation, interest or energy <br> 4)Not getting any enjoyment out of life <br> 5)Neglecting hobbies and social activities <br> 6)Changes in appetite, weight and sleep <br> 7)Avoiding contact with friends and family <br> 8)Suicidal thoughts/harming yourself</p>
+              <a href="index_helpline.html" class="btn btn-primary" style="background-color:#7bcce9; border-color:#7bcce9;">HelpLine</a>
             </div>
           </div>
         </div>
@@ -113,22 +113,22 @@
         <div class="col-sm box-item">
           <!-- add an image here -->
           <div class="card">
-            <img class="card-img-top" src="images/clone-in-desktop-example.png" alt="Card image cap">
+            <img class="card-img-top" src="images/ADHD.png" alt="ADHD icon" style="max-width:100%;height:auto;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Attention Deficit Hyperactivity Disorder</h5>
+              <p class="card-text">Common ADHD symptoms are: <br> <br> 1)Short attention span <br> 2)Physical, verbal, or emotional hyperactivity and fidgting <br> 3)Disorganization and forgetfulness <br> 4)Impulsiveness <br> 5)Trouble multitasking, executive dysfunction <br> 6)Inability to control anger/frustration <br> 7)Trouble completing tasks/frequent procrastination <br> 8)Distractibility</p>
+              <a href="index_helpline.html" class="btn btn-primary" style="background-color:#7bcce9; border-color:#7bcce9;">HelpLine</a>
             </div>
           </div>
         </div>
         <div class="col-sm box-item">
           <!-- add an image here -->
           <div class="card">
-            <img class="card-img-top" src="images/clone-in-desktop-example.png" alt="Card image cap">
+            <img class="card-img-top" src="images/PTSD.png" alt="PTSD icon" style="max-width:100%;height:auto;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Post-Traumatic Stress Disorder</h5>
+              <p class="card-text">Common PTSD symptoms are: <br> <br> 1)Re-experiencing(flashbacks, nightmares, distressing images, sensations) <br> 2)Avoidance of talking/thinking about places and activities connected to the trauma <br> 3)Guilt, shame <br> 4)Irritability, anger outbursts <br> 5)Other mental health problems (i.e. phobias) <br> 6)Being easily startled/frightened, being on guard <br> 7)Self harming/destructive behavior</p>
+              <a href="index_helpline.html" class="btn btn-primary" style="background-color:#7bcce9; border-color:#7bcce9;">HelpLine</a>
             </div>
           </div>
         </div>
@@ -140,38 +140,52 @@
         <div class="col-sm box-item">
           <!-- add an image here -->
           <div class="card">
-            <img class="card-img-top" src="images/clone-in-desktop-example.png" alt="Card image cap">
+            <img class="card-img-top" src="images/bipolar.png" alt="Bipolar icon" style="max-width:100%;height:auto;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Bipolar Disorder</h5>
+              <p class="card-text">Common BD symptoms are: <br> <br> 1)Periods of depression <br> 2)Manic episodes <br> 3)Feeling happy/elated/overjoyed <br> 4)Being full of energy <br> 5)Not sleeping/eating <br> 6)Being delusional, having hallucinations and disturbed/illogical thinking <br> 7)Doing/saying things out of character <br> 8)Doing things with disastrous consequences</p>
+              <a href="index_helpline.html" class="btn btn-primary" style="background-color:#7bcce9; border-color:#7bcce9;">HelpLine</a>
             </div>
           </div>
         </div>
         <div class="col-sm box-item">
           <!-- add an image here -->
           <div class="card">
-            <img class="card-img-top" src="images/clone-in-desktop-example.png" alt="Card image cap">
+            <img class="card-img-top" src="images/OCD.png" alt="OCD icon" style="max-width:100%;height:auto;">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Obessive Compulsive Disorder</h5>
+              <p class="card-text">Common OCD symptoms are: <br> <br> 1)Fear of contamination/dirt <br> 2)Difficulty tolerating uncertainty <br> 3)Needing things orderly/symmetrical <br> 4)Aggressive/horrific thoughts <br> 5)Doubts about having done certain things <br> 6)Compulsive washing & cleaning <br> 7)Compulsive checking and counting <br> 8)Following strict routine <br> 9)Demanding reassurance</p>
+              <a href="index_helpline.html" class="btn btn-primary" style="background-color:#7bcce9; border-color:#7bcce9;">HelpLine</a>
             </div>
           </div>
         </div>
         
       </div>
-
+      <br>
+      <br>
+      <div class= "align-items-center" id="News">
+      <h1>Mental health and COVID-19</h1>
+    </div>
+      <br>
+      <p>"Fear, worry, and stress are normal responses to perceived or real threats, and at times when we are faced with uncertainty or the unknown. So it is normal and understandable that people are experiencing fear in the context of the COVID-19 pandemic.
+         <br> Faced with new realities of working from home, temporary unemployment, home-schooling of children, and lack of physical contact with other family members, friends and colleagues, it is important that we look after our mental, as well as our physical, health." <br> <i>-WHO</i></p>
+      
       <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_174496e69e8%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_174496e69e8%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3125%22%20y%3D%22217.7609375%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="First slide">
+            <img class="d-block w-100" src="images/news1.png" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_174496e69e8%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_174496e69e8%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3125%22%20y%3D%22217.7609375%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Second slide">
+            <img class="d-block w-100" src="images/news6.png" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_174496e69e8%20text%20%7B%20fill%3A%23444%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_174496e69e8%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23666%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22247.3125%22%20y%3D%22217.7609375%22%3ESecond%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
+            <img class="d-block w-100" src="images/news7.png" alt="Third slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/news4.jpg" alt="Fourth slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="images/news5.png" alt="Fifth slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -182,16 +196,27 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
+        <br>
+        <br>
       </div>
+
+      
+
 
 
 
 
     </main><!-- /.container -->
+    
 
     <footer class="container-fluid footer-section">
-      <div>My footer section</div>
     </footer>
+
+    <footer class="footer" style="background-color:#7bcce9;">
+      <p class="footerP">© MentalCentral 2020 ©</p>
+      <li class="socialMedias"> <img class="facebook" src="facebook.jpg" href="https://www.facebook.com/axel.halldin1?fref=ts"/>
+      </li>
+      </footer>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
